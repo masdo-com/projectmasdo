@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    font-family: 'Lora', serif; /* Font untuk teks utama */
+    background-color: #121212; /* Warna latar belakang gelap */
+    color: #ffffff; /* Warna teks putih */
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif; /* Font untuk judul */
+}
+
+.about-text p {
+    font-family: 'Lora', serif; /* Font untuk teks paragraf */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e1e1e; /* Warna header gelap */
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Warna tautan putih */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Warna saat hover */
+}
+
+.hero {
+    background-image: url('bacground.jpg'); /* Ganti dengan URL gambar yang diinginkan */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Tinggi penuh layar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(30, 30, 30, 0.7); /* Efek transparansi */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ffcc00; /* Warna tombol */
+    color: #121212; /* Warna teks tombol */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e6b800; /* Warna saat hover */
+}
+
+section {
+    padding: 40px;
+    background-color: #1e1e1e; /* Warna latar belakang setiap section */
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about, .menu, .testimonials, .contact {
+    text-align: center;
+}
+
+.menu {
+    background-color: #2c2c2c; /* Warna latar belakang lebih lembut */
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Efek bayangan */
+}
+
+.menu h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: grid; /* Menggunakan grid untuk tata letak */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Kolom fleksibel */
+    gap: 20px; /* Jarak antara item */
+}
+
+.menu li {
+    background-color: #3a3a3a; /* Latar belakang item menu */
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center; /* Rata tengah untuk item */
+}
+
+.menu-image {
+    width: 100%; /* Memastikan gambar memenuhi lebar item */
+    border-radius: 8px; /* Membuat sudut gambar melengkung */
+    margin-bottom: 10px; /* Jarak antara gambar dan teks */
+}
+
+.menu h3 {
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+
+.menu p {
+    font-size: 16px;
+    color: #cccccc; /* Warna teks deskripsi lebih lembut */
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+}
+
+.about {
+    background-color: #1e1e1e; /* Warna latar belakang */
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+    display: flex; /* Flexbox untuk tata letak */
+    align-items: center; /* Menyelaraskan item secara vertikal */
+    justify-content: space-between; /* Memberi jarak antara teks dan gambar */
+}
+
+.about-content {
+    display: flex; /* Flex untuk konten */
+    flex-wrap: wrap; /* Memungkinkan item membungkus */
+}
+
+.about-text {
+    flex: 1; /* Mengizinkan teks untuk mengambil ruang */
+    margin-right: 20px; /* Jarak antara teks dan gambar */
+}
+
+.about-image {
+    flex: 1; /* Mengizinkan gambar untuk mengambil ruang */
+}
+
+.about-img {
+    width: 100%; /* Memastikan gambar memenuhi lebar kontainer */
+    border-radius: 8px; /* Membuat sudut gambar melengkung */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Bayangan untuk memberikan kedalaman */
+}
+
+.about-img {
+    width: 275px; /* Lebar gambar */
+    height: 183px; /* Tinggi gambar */
+    border-radius: 8px; /* Membuat sudut gambar melengkung */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Bayangan untuk memberikan kedalaman */
+}
+
+.testimonial-image {
+    width: 60px; /* Atur lebar gambar sesuai kebutuhan */
+    height: 60px; /* Atur tinggi gambar sesuai kebutuhan */
+    border-radius: 50%; /* Membuat gambar bulat */
+    margin-right: 15px; /* Jarak antara gambar dan teks */
+    vertical-align: middle; /* Menyelaraskan gambar dengan teks */
+    object-fit: cover; /* Memastikan gambar terpotong dengan baik */
+}
